@@ -117,7 +117,7 @@ h1,h2, p {
 .home-info .btn-sci .sci a:hover{
     background-color: #7cf03d;
     color: #1f242d;
-    box-shadow: 0 0 10px #7cf03d;
+    box-shadow: 0 0 5px #7cf03d;
 }
 
  .home-img, .img-box, .img-item {
@@ -141,9 +141,12 @@ h1,h2, p {
     left: 50%;      /* horizontal center */
     transform: translate(-50%, -50%);  /* center the image exactly */
     display: block;
-    width: 85%;
-    height: 85%;    /* add height to keep aspect ratio */
+    width: 96%;
+    height: 96%;    /* add height to keep aspect ratio */
     object-fit: cover;
     border-radius: 50%;
 }
 
+.home-info{
+    padding-left: 30px;
+}
